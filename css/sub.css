@@ -1,0 +1,200 @@
+@charset 'utf-8';
+@import url(./reset.css);
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'S-CoreDream-7ExtraBold'; 
+    font-size: 30px;
+}
+.sec1 .sec1-wrap{
+    padding-top: 200px;
+    display: flex;
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+}
+.main1{
+    width: 50%;
+}
+.main1 span{
+    font-family: 'S-CoreDream-4Regular';
+    font-size: 80px;
+    margin: 0 18px 0 0;
+}
+.main1 p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 28px;
+}
+.mainsub2>p,
+.mainsub3>p{
+    white-space: nowrap;
+}
+.main1 div h1{
+    padding-top: 80px;
+    font-family: 'S-CoreDream-7ExtraBold'; 
+    font-size: 30px;
+}
+.main1 div p{
+    padding-top: 60px;
+    font-family: 'S-CoreDream-2ExtraLight';
+    font-size: 24px;
+    line-height: 1.5;
+    white-space: wrap;
+}
+
+.main2{
+    margin:0 0 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.main2 img{
+    padding-top: 45px;
+    width: 73.5%;
+}
+.sec1 .sec1-wrap .mainsub2_1 img{
+    padding-top: 45px;
+    width: 62.2%;
+}
+.sec1 .sec1-wrap .mainsub3_1 img{
+    padding-top: 160px;
+    width: 28.3%;
+}
+.sec1 .sec1-wrap .mainsub4_1 img{
+    padding-top: 160px;
+    width: 56.4%;
+    padding-bottom: 100px;
+}
+
+.sec2{
+    padding-top: 220px;
+}
+.sec2 .sec2-wrap{
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+}
+.sec2 .color,
+.sec2 .typ{
+    padding-bottom: 200px;
+}
+.sec2 div h1{
+    border-bottom: 1px dotted black;
+    line-height: 1.5;
+}
+.sec2 .color div,
+.sec2 .typ div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+} 
+.sec2 .colorsub2 div img{
+    width: 41.4%;
+}
+.sec2 .colorsub4 div img{
+    width: 55.173%;
+}
+.sec2 div img{
+    width: 27.6%;
+}
+
+
+
+.sec3 .sec3-wrap{
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+}
+.sec3 h1{
+    border-bottom: 1px dotted black;
+    line-height: 1.5;
+}
+.sec3 .sec3-wrap .mainsub2_2 div ul{
+    padding-bottom: 144px;
+}
+
+.sec3 .sec3-wrap .main div ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 .sec3-wrap .main div ul li p{
+    width: 80%;
+    font-family: 'S-CoreDream-2ExtraLight';
+    font-size: 24px;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+.sec3 .sec3-wrap .main div ul li:nth-of-type(2){
+    width: 13.8%;
+}
+.sec3 .sec3-wrap .mainsub2_2 div ul li:nth-of-type(2){
+    width: 24.2%;
+}
+.sec3 .sec3-wrap .mainsub4_2 div ul li:nth-of-type(2){
+    width: 12%;
+}
+.sec3 .sec3-wrap .main div ul img{
+    width: 100%;
+}
+
+
+
+
+
+.sec3 .sec3-wrap .mainsub2_3 div ul{
+    padding-bottom: 144px;
+}
+.sec3 .sec3-wrap .mainsub4_3 div ul{
+    padding-bottom: 120px;
+}
+.sec3 .sec3-wrap .pro div ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 .sec3-wrap .pro div ul li p{
+    width: 80%;
+    font-family: 'S-CoreDream-2ExtraLight';
+    font-size: 24px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.sec3 .sec3-wrap .pro div ul li:nth-of-type(2){
+    width: 13.8%;
+}
+.sec3 .sec3-wrap .mainsub2_3 div ul li:nth-of-type(2){
+    width: 24.2%;
+}
+.sec3 .sec3-wrap .mainsub4_3 div ul li:nth-of-type(2){
+    width: 41.38%;
+}
+.sec3 .sec3-wrap .mainsub4_3 div ul li:nth-of-type(2) ul li{
+    width: 41.38%;
+}
+.sec3 .sec3-wrap .pro div ul img{
+    width: 100%;
+}
