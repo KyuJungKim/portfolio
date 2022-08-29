@@ -7,24 +7,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <script src="./js/index.js"></script>
     <script src="./js/sticker.js"></script>
 </head>
 <body>
-    <section class="main">
+    <section class="main" id="sec1">
         <div class="mainwrap">
-            <div><a href="#">HOME</a></div>
-            <div><a href="#">ABOUT</a></div>
-            <div><a href="#">CONTACT</a></div>
-            <div><a href="#">PROJECT</a></div>
+            <div><a href="#sec1">HOME</a></div>
+            <div><a href="#sec3">ABOUT</a></div>
+            <div><a href="#sec4">CONTACT</a></div>
+            <div><a href="#sec2">PROJECT</a></div>
             <div>
-                <p><span>알</span>아서<span>잘</span><br><span>딱</span><br><span>깔</span>끔하고<br><span>센</span>스있게</p>
+                <p id="mainTextField">
+                    <span>저는 코딩을</span>
+                </p>
             </div>
         </div>
     </section>
-    <section class="pro">
+    
+    <section class="pro" id="sec2">
         <h1><img src="./img/PROJECT.png" alt=""></h1>
         <div class="pro-wrap">
             <ul class="proli">
@@ -117,13 +121,14 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="sec3">
         <h2><img src="./img/ABOUT.png" alt=""></h2>
         <div class="about-wrap">
             <div class="ab1">
+                <button type="button" id="examEvntBtn" class="button">click me</button>
                 <ul>
-                    <li><img src="./img/test.png" alt=""></li>
-                    <li>
+                    <li><img src="./img/test.jpg" alt=""></li>
+                    <li id="introField">
                         <p>중국 상하이에서 16년간 유학 생활 상무중국어를 전공한 문과생,<br>
                         하지만 이제는 프론트 엔드 개발자가 되는 것이 꿈이 되어버린 신입 개발자 김규중 입니다. <br>
                         현재 코딩 경력은 한원에서 코딩을 배운 6개월이 전부입니다. </p>
@@ -136,7 +141,7 @@
                 </ul>
             </div>
             <div class="ab2">
-            <div class="ab2l">
+            <div class="ab2l" id="sec4">
                 <ul>
                     <li><span>CONTACT</span></li> <br>
                     <li><span>EMAIL</span><p>kkj9256@gmail.com</p></li>
@@ -171,5 +176,6 @@
             </div>
         </div>
     </section> 
+
 </body>
 </html>

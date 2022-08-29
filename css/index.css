@@ -48,8 +48,8 @@
 .mainwrap{
     /* width: 1784px;
     height: 944px; */
-    width: 80%;
-    height: 80%;
+    width: 90vh;
+    height:90vh;
     position: relative;
 }
 .mainwrap div a:hover{
@@ -57,17 +57,17 @@
 }
 .mainwrap div a{
     font-family: 'S-CoreDream-7ExtraBold';
-    font-size: 40px;
+    font-size: 2vw;
 }
 .mainwrap div:nth-of-type(1){
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 4vh;
+    left: 4vh;
 }
 .mainwrap div:nth-of-type(2){
     position: fixed;
-    top:10px;
-    right: 10px;
+    top:4vh;
+    right: 4vh;
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
@@ -76,8 +76,8 @@
 
 .mainwrap div:nth-of-type(3){
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    bottom: 4vh;
+    left: 4vh;
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
@@ -86,8 +86,8 @@
 
 .mainwrap div:nth-of-type(4){
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 4vh;
+    right: 4vh;
 }
 
 .mainwrap div:nth-of-type(5){
@@ -95,8 +95,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    font-size: 150px;
-    line-height: 1.1;
+    font-size: 7vw;
+    line-height: 8vw;
     white-space: nowrap;
 }
 .mainwrap span{
@@ -108,7 +108,7 @@
 
 
 .pro{
-    height: 120vh;
+    height: 180vh;
 }
 
 
@@ -142,8 +142,8 @@
 
 .pro .proli .probk{
     position: absolute;
-    width: 20%;
-    top: 20vh;
+    width: 25%;
+    top: 32vh;
     left: 8%;
 }
 
@@ -151,8 +151,8 @@
 .pro .proli .pro31{
     position: absolute;
     left: 38%;
-    width: 22%;
-    top: 30vh;
+    width: 27%;
+    top: 50vh;
 }
 .pro .proli .pro31 p{
     position: absolute;
@@ -178,9 +178,9 @@
 
 .pro .proli .prohd{
     position: absolute;
-    width: 15%;
+    width: 20%;
     right: 18%;
-    top: 45vh;
+    top: 55vh;
  
 }
 .pro .proli .prohd1{
@@ -193,45 +193,45 @@
 
 .pro .proli .propass{
     position: absolute;
-    width: 10%;
+    width: 15%;
     right: 8%;
-    top: 12vh;
+    top: 17vh;
 }
 
 
 .pro .proli .prograb{
     position: absolute;
     left: 13%;
-    top: 90vh;
-    width: 15%;
+    top: 78vh;
+    width: 20%;
 }
 
 .pro .proli .prolm{
     position: absolute;
-    width: 25%;
-    right: 40%;
-    top: 10vh;
+    width: 24%;
+    right: 37%;
+    top: 15vh;
 }
 
 .pro .proli .prosin{
     position: absolute;
-    width: 15%;
-    top: 70vh;
+    width: 20%;
+    top:120vh;
     left: 3% ;
 }
 
 .pro .proli .probread{
     position: absolute;
-    width: 10%;
-    right: 56%;
-    top: 65vh;
+    width: 15%;
+    right: 50%;
+    top: 130vh;
 }
 
 .pro .proli .prohai{
     position: absolute;
-    right: 45%;
-    top: 85vh;
-    width: 9%;
+    right: 38%;
+    top: 105vh;
+    width: 14%;
 }
 .pro .proli .prohai img{
     background-color: #404040;
@@ -239,9 +239,9 @@
 
 .pro .proli .pronet{
     position: absolute;
-    width: 10%;
-    right: 16%;
-    top: 85vh;
+    width: 12%;
+    right: 12%;
+    top: 120vh;
 }
 
 .container {
@@ -304,9 +304,20 @@ svg {
 .about .about-wrap{
     max-width: 1400px;
     margin: auto;
+    position: relative;
 }  
 .about h2 img {
     width: 100%;
+}
+.about .ab1 .button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    left: 50%;
+    top: 60vh;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 24px;
 }
 .about .ab1 ul{
     padding-top: 100px;
